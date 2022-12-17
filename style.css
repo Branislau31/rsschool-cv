@@ -3,12 +3,17 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    
+    
+    
+    font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 .header {
@@ -22,3 +27,17 @@ body {
 .footer {
     border: 1px solid red;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-left: 500px;
+    padding-left: 0;
+}
+
+  .nav-list li {
+    display: inline;
+  }
