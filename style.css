@@ -25,10 +25,11 @@ body {
 
 .nav-list {
     list-style-type: none;
-    margin-left: 300px;
+    margin: 0 auto;
     padding-left: 0;
     font-size: 20px;
-    }
+    justify-content: center;
+}
     
     .nav-list a {
         display: inline-block;
@@ -50,4 +51,12 @@ body {
 
 .footer {
     background-color: #73498a; 
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto
 }
