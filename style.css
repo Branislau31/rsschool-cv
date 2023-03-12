@@ -67,3 +67,7 @@ li {
 ul li a {
     text-decoration: none;
 }
+
+.certificate {
+    height: 200px;
+}
